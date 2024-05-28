@@ -18,16 +18,16 @@
         >&times;</a>
       </div>
       <div>
-        <div
-          v-if="!withConditions"
-          class="bg-base-300 rounded-xl py-2 px-3 text-center"
-        >
-          <a
-            href="https://www.docuseal.co/pricing"
-            target="_blank"
-            class="link"
-          >Available in Pro</a>
-        </div>
+#        <div
+#          v-if="!withConditions"
+#          class="bg-base-300 rounded-xl py-2 px-3 text-center"
+#        >
+#          <a
+#            href="https://www.docuseal.co/pricing"
+#            target="_blank"
+#            class="link"
+#          >Available in Pro</a>
+#        </div>
         <form @submit.prevent="validateSaveAndClose">
           <div class="my-4">
             <div class="space-y-4">
